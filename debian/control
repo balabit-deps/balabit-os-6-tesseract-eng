@@ -1,0 +1,18 @@
+Source: tesseract-eng
+Section: graphics
+Priority: optional
+Maintainer: Jeffrey Ratcliffe <Jeffrey.Ratcliffe@gmail.com>
+Uploaders: Jeff Breidenbach <jab@debian.org>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.9.6
+
+Package: tesseract-ocr-eng
+Architecture: all
+Depends: ${misc:Depends}
+Replaces: tesseract-ocr-data (<< 2)
+Breaks: tesseract-ocr (<<  ${binary:Version})
+Description: tesseract-ocr language files for English
+ A commercial quality OCR engine originally developed at HP between 1985
+ and 1995. In 1995, this engine was among the top 3 evaluated by UNLV. It
+ was open-sourced by HP and UNLV in 2005. This package contains the data
+ needed for processing images in a particular language.
